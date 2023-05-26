@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="Kids">
+    <header>
+        <image-settings>
+            <internal-location base-path="/"/>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+            </view-types>
+            <alt-pattern>${productname}</alt-pattern>
+            <title-pattern>${productname}</title-pattern>
+        </image-settings>
+    </header>
+
+    <category category-id="root">
+        <display-name xml:lang="x-default">Kids</display-name>
+        <online-flag>true</online-flag>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <product product-id="Bundle101">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Sport Bundle</display-name>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <online-from>2023-05-10T00:00:00.000Z</online-from>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <bundled-products>
+            <bundled-product product-id="008884304030M">
+                <quantity>1</quantity>
+            </bundled-product>
+            <bundled-product product-id="008884304023M">
+                <quantity>1</quantity>
+            </bundled-product>
+            <bundled-product product-id="008884304016M">
+                <quantity>1</quantity>
+            </bundled-product>
+        </bundled-products>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="Hoodie1">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Black Hoodie</display-name>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <online-from>2023-05-10T00:00:00.000Z</online-from>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <classification-category>root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="Set1">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Sport Set</display-name>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <online-from>2023-05-10T00:00:00.000Z</online-from>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <product-set-products>
+            <product-set-product product-id="008884303989M"/>
+            <product-set-product product-id="008884303996M"/>
+        </product-set-products>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <category-assignment category-id="root" product-id="008884303989M">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="root" product-id="Hoodie1">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+</catalog>

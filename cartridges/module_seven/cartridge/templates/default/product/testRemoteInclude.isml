@@ -1,0 +1,4 @@
+<isset name="TestRemoteInclude" value="${Dummy Text}" scope="page" />
+${testRemoteInclude}
+<isinclude
+    url="${URLUtils.url('ShowProduct', 'pid', TestRemoteInclude, 'swatches', true, 'ratings', true, 'showQuickView', false)}" />
