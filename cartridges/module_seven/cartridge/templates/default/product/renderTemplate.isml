@@ -1,4 +1,0 @@
-<isset name="RenderTemplate" value="${Dummy Text}" scope="page" />
-${RenderTemplate}
-<isinclude
-    url="${URLUtils.url('ShowProduct', 'pid', RenderTemplate, 'swatches', true, 'ratings', true, 'showQuickView', false)}" />
