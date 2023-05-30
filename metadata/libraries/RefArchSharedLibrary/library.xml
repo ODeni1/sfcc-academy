@@ -10593,6 +10593,17 @@ Consideriamo molto seriamente i diritti relativi alla privacy degli utenti di qu
         </folder-links>
     </content>
 
+    <content content-id="small-banner">
+    <display-name xml:lang="x-default">Small Banner</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>true</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&lt;/p&gt;&#13;&lt;p style=&quot;text-align: center;&quot;&gt;Free Shipping over US$ 50.00&lt;/p&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
+
     <content content-id="store-locator">
         <display-name xml:lang="x-default">Store Locator</display-name>
         <display-name xml:lang="fr-FR">Localisateur de magasins</display-name>
