@@ -1,0 +1,6 @@
+<isinclude template="/components/modules" />
+<isdecorate template="common/layout/page">
+    <iscontentasset aid="small-banner" />
+    <isinclude
+        url="${URLUtils.url('MyAssets', 'aid', smallbanner, 'swatches', true, 'ratings', true, 'showQuickView', false)}" />
+</isdecorate>
