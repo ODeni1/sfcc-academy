@@ -1,6 +1,4 @@
 <isinclude template="/components/modules" />
 <isdecorate template="common/layout/page">
-    <iscontentasset aid="Benefits-Section" />
-    <isinclude
-        url="${URLUtils.url('MyAssets', 'aid', benefitsSection, 'swatches', true, 'ratings', true, 'showQuickView', false)}" />
+    ${pdict.assetFolder};
 </isdecorate>
