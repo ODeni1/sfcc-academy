@@ -10,7 +10,7 @@
     <div class="home-main homepage">
         <isslot id="home-main-m" description="Main home page slot." context="global" />
     </div>
-
+    <img src="${pdict.desktopBannerImage}" alt="Mountain View Image" width="300" />
     <div class="container home-categories homepage">
         <div class="row home-main-categories no-gutters">
             <isslot id="home-categories-m" description="Categories slots on the home page." context="global" />
@@ -22,7 +22,7 @@
             <isslot id="home-products-m" description="Product tiles on the home page." context="global" />
         </div>
     </div>
-    <isreplace/>
+
     <div class="homepage shop-the-style">
         <isslot id="home-product-set-m" description="Link to a Product Set." context="global" />
     </div>
